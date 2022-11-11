@@ -35,3 +35,26 @@ section {
 .main-text {
   margin-top: 0;
 }
+
+.gray {
+  color: #918E9B;
+}
+
+.card {
+  width:200px;
+  font-size: 14px;
+}
+
+.card-img {
+  width: 120%;
+  border-radius: 10px;
+}
+
+.sub-cards {
+  display: flex;
+  align-items: center;
+}
+
+.star-img {
+  height: 16px;
+}
