@@ -11,19 +11,7 @@ export default function App(){
 
       key = {experienceData.id}
 
-      img = {experienceData.coverImg}
-
-      rating = {experienceData.stats.rating}
-
-      reviewCount = {experienceData.stats.reviewCount}
-
-      location = {experienceData.location}
-
-      title = {experienceData.title}
-
-      price = {experienceData.price}
-
-      openSpots = {experienceData.openSpots}
+      experienceData = {experienceData}
 
     />
 
