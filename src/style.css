@@ -46,7 +46,8 @@ section {
 }
 
 .card-img {
-  width: 120%;
+  width: 270px;
+  height: 360px;
   border-radius: 10px;
 }
 

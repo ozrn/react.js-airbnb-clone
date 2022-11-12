@@ -4,7 +4,7 @@ export default function Main() {
 
     <section className = "section-main">
 
-      <img src = {require("./assets/photo-grid.png")} className = "main-photo" alt = "random-images" />
+      <img src = "./images/photo-grid.png" className = "main-photo" alt = "random-images" />
 
       <h1 className = "main-header">Online Experiences</h1>
 
