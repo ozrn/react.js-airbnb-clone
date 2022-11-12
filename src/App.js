@@ -17,11 +17,13 @@ export default function App(){
 
       reviewCount = {experienceData.stats.reviewCount}
 
-      country = {experienceData.location}
+      location = {experienceData.location}
 
       title = {experienceData.title}
 
       price = {experienceData.price}
+
+      openSpots = {experienceData.openSpots}
 
     />
 
