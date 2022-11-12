@@ -18,9 +18,9 @@ export default function Card(props){
 
          </div>
 
-       <p>{props.title}</p>
+       <p className = "card-text">{props.title}</p>
 
-       <p><b>From ${props.price}</b> / person </p>
+       <p className = "card-price"><b>From ${props.price}</b> / person </p>
 
      </div>
 

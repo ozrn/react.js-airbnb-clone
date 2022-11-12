@@ -28,9 +28,10 @@ export default function App(){
     <div>
       <Nav />
       <Main />
+      <section className = "cards-list" >
+        {experiencesData}
+      </section>
+  </div>
 
-      {experiencesData}
-
-    </div>
   )
   }

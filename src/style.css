@@ -15,7 +15,7 @@ nav {
 }
 
 section {
-  padding: 20px
+  padding: 20px;
 }
 
 .section-main {
@@ -40,15 +40,26 @@ section {
   color: #918E9B;
 }
 
+.cards-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+}
+
 .card {
-  width:200px;
+  width:310px;
   font-size: 14px;
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .card-img {
-  width: 270px;
-  height: 360px;
+  width: 100%;
+  height: 80%;
   border-radius: 10px;
+  margin-bottom: 10px;
 }
 
 .sub-cards {
@@ -58,4 +69,13 @@ section {
 
 .star-img {
   height: 16px;
+}
+
+.card-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card-price {
+  margin-top:auto;
 }
