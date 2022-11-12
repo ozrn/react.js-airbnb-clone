@@ -8,6 +8,9 @@ export default function App(){
   const experiencesData = data.map(experienceData => {
 
     return < Card
+
+      key = {experienceData.id}
+
       img = {experienceData.coverImg}
 
       rating = {experienceData.stats.rating}
